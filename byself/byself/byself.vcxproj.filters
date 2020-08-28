@@ -32,5 +32,8 @@
     <ClInclude Include="btree.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="length_of_longest_sub_string.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
