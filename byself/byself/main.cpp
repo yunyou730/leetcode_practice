@@ -1,44 +1,29 @@
-#include <stdio.h>
-#include <vector>
-#include <set>
-#include <map>
-
-using namespace std;
-
-class Solution {
-public:
-	vector<int> twoSum(vector<int>& nums, int target) {
-		vector<int>		result;
-		map<int, int>	numMap;
-		for (int i = 0;i < nums.size();i++)
-		{
-			int curNum = nums[i];
-			int needNum = target - curNum;
-			if (numMap.find(needNum) != numMap.end())
-			{
-				result.push_back(i);
-				result.push_back(numMap[needNum]);
-				break;
-			}
-			if (numMap.find(curNum) == numMap.end())
-			{
-				numMap.insert(std::make_pair(curNum, i));
-			}
-		}
-		return result;
-	}
-};
+//#include "two_sum.hpp"
+#include "add_two_numbers.hpp"
 
 int  main()
 {
-	vector<int> vec;
-	vec.push_back(2);
-	vec.push_back(7);
-	vec.push_back(11);
-	vec.push_back(15);
+	
+	ListNode* l1 = new ListNode(2);
+	ListNode* ol1 = l1;
+	l1->next = new ListNode(4);
+	l1 = l1->next;
+	l1->next = new ListNode(3);
+
+	ListNode* l2 = new ListNode(5);
+	ListNode* ol2 = l2;
+	l2->next = new ListNode(6);
+	l2 = l2->next;
+	l2->next = new ListNode(9);
 
 	Solution solution;
-	vector<int> result = solution.twoSum(vec,9);
+	ListNode* result = solution.addTwoNumbers(ol1,ol2);
+
+	while (result != nullptr)
+	{
+		printf("%d" ,result->val);
+		result = result->next;
+	}
 
 	return 0;
 }

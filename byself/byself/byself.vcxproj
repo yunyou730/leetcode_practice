@@ -138,8 +138,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="add_two_numbers.hpp" />
     <ClCompile Include="btree.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="two_sum.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="btree.h" />
