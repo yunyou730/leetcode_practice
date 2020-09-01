@@ -35,5 +35,11 @@
     <ClInclude Include="length_of_longest_sub_string.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="longest_palindrome.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="intersection_of_two_linked_lists.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
