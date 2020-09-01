@@ -147,6 +147,7 @@
     <ClInclude Include="btree.h" />
     <ClInclude Include="intersection_of_two_linked_lists.hpp" />
     <ClInclude Include="length_of_longest_sub_string.hpp" />
+    <ClInclude Include="linked_list_cycle_ii.hpp" />
     <ClInclude Include="longest_palindrome.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
