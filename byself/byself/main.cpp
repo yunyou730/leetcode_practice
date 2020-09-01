@@ -7,7 +7,8 @@
 //#include "reverse_linked_list_206.hpp"
 //#include "convert_binary_number_in_a_linked_list_to_integer_1290.hpp"
 //#include "reverse_integer_7.hpp"
-#include "binary_tree_inorder_traversal_94.hpp"
+//#include "binary_tree_inorder_traversal_94.hpp"
+#include "same_tree_100.hpp"
 
 int  main()
 {
@@ -15,10 +16,13 @@ int  main()
 	TreeNode* tr = new TreeNode(1);
 	tr->right = new TreeNode(2);
 	tr->right->left = new TreeNode(3);
-	//sol.inorderTraversal()
-	//int r = sol.reverse(123);
-	//printf("%d\n",r);
 
-	vector<int> n = sol.inorderTraversal(tr);
+
+	TreeNode* tr2 = new TreeNode(1);
+	tr2->right = new TreeNode(2);
+	tr2->right->left = new TreeNode(3);
+
+	sol.isSameTree(tr, tr2);
+
 	return 0;
 }

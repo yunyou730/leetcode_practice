@@ -53,5 +53,8 @@
     <ClInclude Include="binary_tree_inorder_traversal_94.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="same_tree_100.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
