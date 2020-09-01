@@ -5,23 +5,20 @@
 //#include "intersection_of_two_linked_lists.hpp"
 //#include "linked_list_cycle_ii.hpp"
 //#include "reverse_linked_list_206.hpp"
-#include "convert_binary_number_in_a_linked_list_to_integer_1290.hpp"
+//#include "convert_binary_number_in_a_linked_list_to_integer_1290.hpp"
+//#include "reverse_integer_7.hpp"
+#include "binary_tree_inorder_traversal_94.hpp"
 
 int  main()
 {
 	Solution sol;
+	TreeNode* tr = new TreeNode(1);
+	tr->right = new TreeNode(2);
+	tr->right->left = new TreeNode(3);
+	//sol.inorderTraversal()
+	//int r = sol.reverse(123);
+	//printf("%d\n",r);
 
-	ListNode* p1 = new ListNode(1);
-	ListNode* p2 = new ListNode(1);
-	ListNode* p3 = new ListNode(0);
-	ListNode* p4 = new ListNode(1);
-
-	p1->next = p2;
-	p2->next = p3;
-	p3->next = p4;
-
-	//sol.reverseList(p1);
-	sol.getDecimalValue(p1);
-
+	vector<int> n = sol.inorderTraversal(tr);
 	return 0;
 }
