@@ -155,6 +155,7 @@
     <ClInclude Include="reverse_linked_list_206.hpp" />
     <ClInclude Include="same_tree_100.hpp" />
     <ClInclude Include="unique_path_62.hpp" />
+    <ClInclude Include="unique_path_ii_63.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
