@@ -151,6 +151,7 @@
     <ClInclude Include="length_of_longest_sub_string.hpp" />
     <ClInclude Include="linked_list_cycle_ii.hpp" />
     <ClInclude Include="longest_palindrome.hpp" />
+    <ClInclude Include="minimum_path_sum_64.hpp" />
     <ClInclude Include="reverse_linked_list_206.hpp" />
     <ClInclude Include="same_tree_100.hpp" />
   </ItemGroup>

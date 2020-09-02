@@ -8,21 +8,34 @@
 //#include "convert_binary_number_in_a_linked_list_to_integer_1290.hpp"
 //#include "reverse_integer_7.hpp"
 //#include "binary_tree_inorder_traversal_94.hpp"
-#include "same_tree_100.hpp"
+//#include "same_tree_100.hpp"
+#include "minimum_path_sum_64.hpp"
 
 int  main()
 {
 	Solution sol;
-	TreeNode* tr = new TreeNode(1);
-	tr->right = new TreeNode(2);
-	tr->right->left = new TreeNode(3);
 
+	vector<int> r1;
+	r1.push_back(1);
+	r1.push_back(3);
+	r1.push_back(1);
 
-	TreeNode* tr2 = new TreeNode(1);
-	tr2->right = new TreeNode(2);
-	tr2->right->left = new TreeNode(3);
+	vector<int> r2;
+	r2.push_back(1);
+	r2.push_back(5);
+	r2.push_back(1);
 
-	sol.isSameTree(tr, tr2);
+	vector<int> r3;
+	r3.push_back(4);
+	r3.push_back(2);
+	r3.push_back(1);
+
+	vector<vector<int>> path;
+	path.push_back(r1);
+	path.push_back(r2);
+	path.push_back(r3);
+
+	printf("%d",sol.minPathSum(path));
 
 	return 0;
 }
