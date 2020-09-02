@@ -59,5 +59,8 @@
     <ClInclude Include="minimum_path_sum_64.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="unique_path_62.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
