@@ -11,34 +11,12 @@
 //#include "same_tree_100.hpp"
 //#include "minimum_path_sum_64.hpp"
 //#include "unique_path_62.hpp"
-#include "unique_path_ii_63.hpp"
+//#include "unique_path_ii_63.hpp"
+#include "climbing_stairs_70.hpp"
 
 int  main()
 {
 	Solution sol;
-
-	vector<int> r1;
-	r1.push_back(0);
-	r1.push_back(0);
-	r1.push_back(0);
-
-	vector<int> r2;
-	r2.push_back(0);
-	r2.push_back(1);
-	r2.push_back(0);
-
-	vector<int> r3;
-	r3.push_back(0);
-	r3.push_back(0);
-	r3.push_back(0);
-
-	vector<vector<int>> path;
-	path.push_back(r1);
-	path.push_back(r2);
-	path.push_back(r3);
-
-	//printf("%d",sol.minPathSum(path));
-	//printf("%d",sol.uniquePaths(3,2));
-	printf("%d", sol.uniquePathsWithObstacles(path));
+	printf("%d\n", sol.climbStairs(3));
 	return 0;
 }
