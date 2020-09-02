@@ -12,11 +12,23 @@
 //#include "minimum_path_sum_64.hpp"
 //#include "unique_path_62.hpp"
 //#include "unique_path_ii_63.hpp"
-#include "climbing_stairs_70.hpp"
+//#include "climbing_stairs_70.hpp"
+#include "maximum_subarray.hpp"
 
 int  main()
 {
+	vector<int> v;
+	v.push_back(-2);
+	v.push_back(1);
+	v.push_back(-3);
+	v.push_back(4);
+	v.push_back(-1);
+	v.push_back(2);
+	v.push_back(1);
+	v.push_back(-5);
+	v.push_back(4);
 	Solution sol;
-	printf("%d\n", sol.climbStairs(3));
+	printf("%d\n", sol.maxSubArray(v));
+	
 	return 0;
 }
