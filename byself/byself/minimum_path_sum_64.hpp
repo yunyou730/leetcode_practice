@@ -34,15 +34,7 @@ public:
 					int costFromUp = (row - 1) < 0 ? INT_MAX : result[row - 1][col];
 					int costInherit = costFromUp < costFromLeft ? costFromUp : costFromLeft;
 
-					int costGrid = 0;
-					if (row < 0 || col < 0)
-					{
-						costGrid = 0;
-					}
-					else
-					{
-						costGrid = grid[row][col];
-					}
+					int costGrid = grid[row][col];
 					result[row].push_back(costInherit + costGrid);
 				}
 			}
