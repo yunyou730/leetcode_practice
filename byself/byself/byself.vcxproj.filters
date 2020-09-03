@@ -80,5 +80,8 @@
     <ClInclude Include="surrounded_regions_130.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="binary_tree_dfs_bfs_test.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -15,7 +15,8 @@
 //#include "climbing_stairs_70.hpp"
 //#include "maximum_subarray.hpp"
 //#include "minimum_depth_of_binary_tree_111.hpp"
-#include "surrounded_regions_130.hpp"
+//#include "surrounded_regions_130.hpp"
+#include "binary_tree_dfs_bfs_test.hpp"
 
 int  main()
 {
@@ -46,16 +47,40 @@ int  main()
 	X X O X
 	X O X X
 	*/
+	//Solution sol;
+	//vector<vector<char>> board;
+	//sol.addRow(board, "XOXXXX", 6);
+	//sol.addRow(board, "XOOXOX", 6);
+	//sol.addRow(board, "XXOXOX", 6);
+	//sol.addRow(board, "XOXXXO", 6);
+	//
+	//sol.dump(board);
+	//sol.solve(board);
+	//sol.dump(board);
+
+
+	/*
+			0,
+		  1,   2,
+	   3,  4,    5,
+				6, 7,
+	*/
+
+	TreeNode* root = new TreeNode(0);
+	root->left = new TreeNode(1);
+	root->right = new TreeNode(2);
+	root->left->left = new TreeNode(3);
+	root->left->right = new TreeNode(4);
+	root->right->right = new TreeNode(5);
+	root->right->right->left = new TreeNode(6);
+	root->right->right->right = new TreeNode(7);
+
 	Solution sol;
-	vector<vector<char>> board;
-	sol.addRow(board, "XOXXXX", 6);
-	sol.addRow(board, "XOOXOX", 6);
-	sol.addRow(board, "XXOXOX", 6);
-	sol.addRow(board, "XOXXXO", 6);
-	
-	sol.dump(board);
-	sol.solve(board);
-	sol.dump(board);
+	sol.dfsNotRecr(root);
+	printf("-----------------\n");
+	sol.dfsRecr(root);
+	printf("-----------------\n");
+	sol.bfs(root);
 	
 	return 0;
 }
