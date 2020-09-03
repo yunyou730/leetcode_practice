@@ -13,22 +13,34 @@
 //#include "unique_path_62.hpp"
 //#include "unique_path_ii_63.hpp"
 //#include "climbing_stairs_70.hpp"
-#include "maximum_subarray.hpp"
+//#include "maximum_subarray.hpp"
+#include "minimum_depth_of_binary_tree_111.hpp"
 
 int  main()
 {
-	vector<int> v;
-	v.push_back(-2);
-	v.push_back(1);
-	v.push_back(-3);
-	v.push_back(4);
-	v.push_back(-1);
-	v.push_back(2);
-	v.push_back(1);
-	v.push_back(-5);
-	v.push_back(4);
+	//vector<int> v;
+	//v.push_back(-2);
+	//v.push_back(1);
+	//v.push_back(-3);
+	//v.push_back(4);
+	//v.push_back(-1);
+	//v.push_back(2);
+	//v.push_back(1);
+	//v.push_back(-5);
+	//v.push_back(4);
+	//Solution sol;
+	//printf("%d\n", sol.maxSubArray(v));
+
+	TreeNode* root = new TreeNode(3);
+	root->left = new TreeNode(9);
+	root->left->left = new TreeNode(9);
+	root->left->left->left = new TreeNode(9);
+	root->right = new TreeNode(20);
+	root->right->left = new TreeNode(15);
+	root->right->right = new TreeNode(7);
+
 	Solution sol;
-	printf("%d\n", sol.maxSubArray(v));
+	printf("depth:%d\n", sol.minDepth(root));
 	
 	return 0;
 }

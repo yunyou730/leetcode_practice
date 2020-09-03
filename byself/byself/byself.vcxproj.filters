@@ -71,5 +71,11 @@
     <ClInclude Include="maximum_subarray.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="symmetric_tree_101.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="minimum_depth_of_binary_tree_111.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

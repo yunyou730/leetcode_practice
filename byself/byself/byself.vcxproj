@@ -153,9 +153,11 @@
     <ClInclude Include="linked_list_cycle_ii.hpp" />
     <ClInclude Include="longest_palindrome.hpp" />
     <ClInclude Include="maximum_subarray.hpp" />
+    <ClInclude Include="minimum_depth_of_binary_tree_111.hpp" />
     <ClInclude Include="minimum_path_sum_64.hpp" />
     <ClInclude Include="reverse_linked_list_206.hpp" />
     <ClInclude Include="same_tree_100.hpp" />
+    <ClInclude Include="symmetric_tree_101.hpp" />
     <ClInclude Include="unique_path_62.hpp" />
     <ClInclude Include="unique_path_ii_63.hpp" />
   </ItemGroup>
