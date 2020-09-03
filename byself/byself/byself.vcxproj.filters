@@ -77,5 +77,8 @@
     <ClInclude Include="minimum_depth_of_binary_tree_111.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="surrounded_regions_130.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

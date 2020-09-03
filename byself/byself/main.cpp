@@ -14,7 +14,8 @@
 //#include "unique_path_ii_63.hpp"
 //#include "climbing_stairs_70.hpp"
 //#include "maximum_subarray.hpp"
-#include "minimum_depth_of_binary_tree_111.hpp"
+//#include "minimum_depth_of_binary_tree_111.hpp"
+#include "surrounded_regions_130.hpp"
 
 int  main()
 {
@@ -31,16 +32,30 @@ int  main()
 	//Solution sol;
 	//printf("%d\n", sol.maxSubArray(v));
 
-	TreeNode* root = new TreeNode(3);
-	root->left = new TreeNode(9);
-	root->left->left = new TreeNode(9);
-	root->left->left->left = new TreeNode(9);
-	root->right = new TreeNode(20);
-	root->right->left = new TreeNode(15);
-	root->right->right = new TreeNode(7);
+	//TreeNode* root = new TreeNode(3);
+	//root->left = new TreeNode(9);
+	//root->left->left = new TreeNode(9);
+	//root->left->left->left = new TreeNode(9);
+	//root->right = new TreeNode(20);
+	//root->right->left = new TreeNode(15);
+	//root->right->right = new TreeNode(7);
 
+	/*
+	X X X X
+	X O O X
+	X X O X
+	X O X X
+	*/
 	Solution sol;
-	printf("depth:%d\n", sol.minDepth(root));
+	vector<vector<char>> board;
+	sol.addRow(board, "XOXXXX", 6);
+	sol.addRow(board, "XOOXOX", 6);
+	sol.addRow(board, "XXOXOX", 6);
+	sol.addRow(board, "XOXXXO", 6);
+	
+	sol.dump(board);
+	sol.solve(board);
+	sol.dump(board);
 	
 	return 0;
 }
