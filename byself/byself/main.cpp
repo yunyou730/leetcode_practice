@@ -16,7 +16,8 @@
 //#include "maximum_subarray.hpp"
 //#include "minimum_depth_of_binary_tree_111.hpp"
 //#include "surrounded_regions_130.hpp"
-#include "binary_tree_dfs_bfs_test.hpp"
+//#include "binary_tree_dfs_bfs_test.hpp"
+#include "remove_Nth_node_from_end_of_list_19.hpp"
 
 int  main()
 {
@@ -65,7 +66,7 @@ int  main()
 	   3,  4,    5,
 				6, 7,
 	*/
-
+	/*
 	TreeNode* root = new TreeNode(0);
 	root->left = new TreeNode(1);
 	root->right = new TreeNode(2);
@@ -81,6 +82,14 @@ int  main()
 	sol.dfsRecr(root);
 	printf("-----------------\n");
 	sol.bfs(root);
-	
+	*/
+
+	ListNode* head = nullptr;
+	Solution sol;
+	sol.makeList(&head,1);
+	sol.dump(head);
+	head = sol.removeNthFromEnd(head, 1);
+	sol.dump(head);
+
 	return 0;
 }

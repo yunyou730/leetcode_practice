@@ -83,5 +83,8 @@
     <ClInclude Include="binary_tree_dfs_bfs_test.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="remove_Nth_node_from_end_of_list_19.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

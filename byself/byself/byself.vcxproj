@@ -156,6 +156,7 @@
     <ClInclude Include="maximum_subarray.hpp" />
     <ClInclude Include="minimum_depth_of_binary_tree_111.hpp" />
     <ClInclude Include="minimum_path_sum_64.hpp" />
+    <ClInclude Include="remove_Nth_node_from_end_of_list_19.hpp" />
     <ClInclude Include="reverse_linked_list_206.hpp" />
     <ClInclude Include="same_tree_100.hpp" />
     <ClInclude Include="surrounded_regions_130.hpp" />
