@@ -19,37 +19,40 @@ public:
         }
 
         set<pair<int, int>> closeSet;
-        //vector<vector<pair<int, int>>> routes;
 
 		int rowCnt = board.size();
 		int colCnt = board[0].size();
-        
-        for (int row = 1;row < rowCnt - 1;row++)
-        {
-            for (int col = 0;col < colCnt - 1;col++)
-            {
-                bool bAdjBorder = false;
-                vector<pair<int, int>> route;
-                getRoute(board,row,col,route,closeSet, bAdjBorder);
 
-                if (route.size() > 0 && !bAdjBorder)
+        for (int row = 0;row < rowCnt; row ++)
+        {
+            for (int col = 0;col < colCnt;col ++)
+            {
+                if (row == 0 || row == rowCnt - 1  || col == 0 || col == colCnt - 1)
                 {
-                    for (vector<pair<int, int>>::iterator it = route.begin();
-                        it != route.end();
-                        it++)
-                    {
-                        board[it->first][it->second] = 'X';
-                    }
+                    dfs(board, row, col, closeSet);
                 }
             }
         }
+
+		for (int row = 0; row < rowCnt; row++)
+		{
+			for (int col = 0; col < colCnt; col++)
+			{
+                if (board[row][col] == 'O')
+                {
+                    board[row][col] = 'X';
+                }
+                else if (board[row][col] == 'Y')
+                {
+                    board[row][col] = 'O';
+                }
+			}
+		}
     }
     
-    void getRoute(const vector<vector<char>>& board,
+    void dfs(vector<vector<char>>& board,
                     int row,int col,
-                    vector<pair<int, int>>& route,
-                    set<pair<int, int>>& closeSet,
-                    bool& bAdjBorder)
+                    set<pair<int, int>>& closeSet)
     {
         int rowCnt = board.size();
         int colCnt = board[0].size();
@@ -68,19 +71,13 @@ public:
         if (board[row][col] == 'O')
         {
             pair<int,int> coord = make_pair(row, col);
-            route.push_back(coord);
             closeSet.insert(coord);
-
-            if (!bAdjBorder && (row == 0 || col  == 0 || row == rowCnt - 1 || col == colCnt - 1))
-            {
-                bAdjBorder = true;
-            }
-
-            getRoute(board, row - 1, col, route, closeSet, bAdjBorder);
-            getRoute(board, row + 1, col, route, closeSet, bAdjBorder);
-            getRoute(board, row, col + 1, route, closeSet, bAdjBorder);
-            getRoute(board, row, col - 1, route, closeSet, bAdjBorder);
-
+            board[row][col] = 'Y';
+            
+            dfs(board, row - 1, col, closeSet);
+            dfs(board, row + 1, col, closeSet);
+            dfs(board, row, col + 1, closeSet);
+            dfs(board, row, col - 1, closeSet);
         }
     }
 
