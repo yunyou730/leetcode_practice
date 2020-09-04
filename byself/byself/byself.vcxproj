@@ -160,6 +160,7 @@
     <ClInclude Include="reverse_linked_list_206.hpp" />
     <ClInclude Include="same_tree_100.hpp" />
     <ClInclude Include="surrounded_regions_130.hpp" />
+    <ClInclude Include="swap_nodes_in_pairs_24.hpp" />
     <ClInclude Include="symmetric_tree_101.hpp" />
     <ClInclude Include="unique_path_62.hpp" />
     <ClInclude Include="unique_path_ii_63.hpp" />

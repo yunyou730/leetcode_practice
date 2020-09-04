@@ -17,7 +17,8 @@
 //#include "minimum_depth_of_binary_tree_111.hpp"
 //#include "surrounded_regions_130.hpp"
 //#include "binary_tree_dfs_bfs_test.hpp"
-#include "remove_Nth_node_from_end_of_list_19.hpp"
+//#include "remove_Nth_node_from_end_of_list_19.hpp"
+#include  "swap_nodes_in_pairs_24.hpp"
 
 int  main()
 {
@@ -83,12 +84,20 @@ int  main()
 	printf("-----------------\n");
 	sol.bfs(root);
 	*/
-
+	
+	/*
 	ListNode* head = nullptr;
 	Solution sol;
 	sol.makeList(&head,1);
 	sol.dump(head);
 	head = sol.removeNthFromEnd(head, 1);
+	sol.dump(head);
+	*/
+
+	Solution sol;
+	ListNode* head = sol.makeList(30);
+	sol.dump(head);
+	head = sol.swapPairs(head);
 	sol.dump(head);
 
 	return 0;
