@@ -89,5 +89,8 @@
     <ClInclude Include="swap_nodes_in_pairs_24.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="merge_two_sorted_lists_21.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
