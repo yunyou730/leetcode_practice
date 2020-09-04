@@ -19,7 +19,8 @@
 //#include "binary_tree_dfs_bfs_test.hpp"
 //#include "remove_Nth_node_from_end_of_list_19.hpp"
 //#include  "swap_nodes_in_pairs_24.hpp"
-#include "merge_two_sorted_lists.hpp"
+//#include "merge_two_sorted_lists_21.hpp"
+#include "merge_k_sorted_lists_23.hpp"
 
 int  main()
 {
@@ -102,6 +103,30 @@ int  main()
 	//sol.dump(head);
 
 
+	ListNode* l1 = new ListNode(1);
+	l1->next = new ListNode(4);
+	l1->next->next = new ListNode(5);
+
+	ListNode* l2 = new ListNode(1);
+	l2->next = new ListNode(3);
+	l2->next->next = new ListNode(4);
+
+	ListNode* l3 = new ListNode(2);
+	l3->next = new ListNode(6);
+
+	vector<ListNode*> lists;
+	lists.push_back(l1);
+	lists.push_back(l2);
+	lists.push_back(l3);
+
+	Solution sol;
+	ListNode* node = sol.mergeKLists(lists);
+
+	while (node != nullptr)
+	{
+		printf("%d\n",node->val);
+		node = node->next;
+	}
 
 	return 0;
 }

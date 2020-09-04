@@ -154,6 +154,7 @@
     <ClInclude Include="linked_list_cycle_ii.hpp" />
     <ClInclude Include="longest_palindrome.hpp" />
     <ClInclude Include="maximum_subarray.hpp" />
+    <ClInclude Include="merge_k_sorted_lists_23.hpp" />
     <ClInclude Include="merge_two_sorted_lists_21.hpp" />
     <ClInclude Include="minimum_depth_of_binary_tree_111.hpp" />
     <ClInclude Include="minimum_path_sum_64.hpp" />
