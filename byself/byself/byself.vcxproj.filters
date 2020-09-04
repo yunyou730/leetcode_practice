@@ -95,5 +95,11 @@
     <ClInclude Include="merge_k_sorted_lists_23.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="rotate_list_61.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="palindrome_number_9.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
