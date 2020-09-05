@@ -22,7 +22,8 @@
 //#include "merge_two_sorted_lists_21.hpp"
 //#include "merge_k_sorted_lists_23.hpp"
 //#include "palindrome_number_9.hpp"
-#include "letter_combinations_of_a_phone_number_17.hpp"
+//#include "letter_combinations_of_a_phone_number_17.hpp"
+#include "jump_game_ii_45.hpp"
 
 int  main()
 {
@@ -133,7 +134,14 @@ int  main()
 	//Solution sol;
 	//sol.isPalindrome(121);
 	Solution sol;
-	sol.letterCombinations("39");
+	vector<int> steps;
+	steps.push_back(3);
+	steps.push_back(1);
+	steps.push_back(1);
+	steps.push_back(1);
+	steps.push_back(1);
+	//[3, 1, 1, 1, 1]
+	printf("%d steps\n", sol.jump(steps));
 	
 	return 0;
 }
