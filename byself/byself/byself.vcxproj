@@ -170,6 +170,7 @@
     <ClInclude Include="symmetric_tree_101.hpp" />
     <ClInclude Include="unique_path_62.hpp" />
     <ClInclude Include="unique_path_ii_63.hpp" />
+    <ClInclude Include="valid_parentheses_20.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

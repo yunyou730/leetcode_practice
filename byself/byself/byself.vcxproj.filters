@@ -107,5 +107,8 @@
     <ClInclude Include="letter_combinations_of_a_phone_number_17.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="valid_parentheses_20.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
