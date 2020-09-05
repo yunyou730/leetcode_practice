@@ -151,6 +151,7 @@
     <ClInclude Include="binary_tree_dfs_bfs_test.hpp" />
     <ClInclude Include="intersection_of_two_linked_lists.hpp" />
     <ClInclude Include="length_of_longest_sub_string.hpp" />
+    <ClInclude Include="letter_combinations_of_a_phone_number_17.hpp" />
     <ClInclude Include="linked_list_cycle_ii.hpp" />
     <ClInclude Include="longest_common_prefix_14.hpp" />
     <ClInclude Include="longest_palindrome.hpp" />

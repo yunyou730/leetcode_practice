@@ -21,7 +21,8 @@
 //#include  "swap_nodes_in_pairs_24.hpp"
 //#include "merge_two_sorted_lists_21.hpp"
 //#include "merge_k_sorted_lists_23.hpp"
-#include "palindrome_number_9.hpp"
+//#include "palindrome_number_9.hpp"
+#include "letter_combinations_of_a_phone_number_17.hpp"
 
 int  main()
 {
@@ -129,7 +130,10 @@ int  main()
 	//	node = node->next;
 	//}
 
+	//Solution sol;
+	//sol.isPalindrome(121);
 	Solution sol;
-	sol.isPalindrome(121);
+	sol.letterCombinations("39");
+	
 	return 0;
 }
