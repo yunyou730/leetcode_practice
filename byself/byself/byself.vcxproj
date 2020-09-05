@@ -152,6 +152,7 @@
     <ClInclude Include="intersection_of_two_linked_lists.hpp" />
     <ClInclude Include="length_of_longest_sub_string.hpp" />
     <ClInclude Include="linked_list_cycle_ii.hpp" />
+    <ClInclude Include="longest_common_prefix_14.hpp" />
     <ClInclude Include="longest_palindrome.hpp" />
     <ClInclude Include="maximum_subarray.hpp" />
     <ClInclude Include="merge_k_sorted_lists_23.hpp" />
