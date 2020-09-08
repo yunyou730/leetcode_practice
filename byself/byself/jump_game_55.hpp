@@ -8,37 +8,50 @@
 using namespace std;
 class Solution {
 public:
-
-	// DP 2
+	// Greedy
 	bool canJump(vector<int>& nums)
 	{
-		int len = nums.size();
-		int* state = new int[len];
-		for (int i = 0;i < nums.size() - 1;i++)
+		int maxJump = nums.size() - 1;
+		for (int pos = nums.size() - 2;pos >= 0;pos--)
 		{
-			state[i] = 0;
-		}
-		state[len - 1] = 1;
-
-		for (int pos = len - 2;pos >= 0;pos--)
-		{
-			int step = nums[pos];			
-			for (int i = 0;i <= step;i++)
+			if (pos + nums[pos] >= maxJump)
 			{
-				int tempPos = pos + i;
-				if (tempPos >= len || state[tempPos] == 1)
-				{
-					state[pos] = 1;
-					break;
-				}
-				else
-				{
-					state[pos] = -1;
-				}
+				maxJump = pos;
 			}
 		}
-		return state[0] == 1;
+		return maxJump == 0;
 	}
+
+	//// DP 2
+	//bool canJump(vector<int>& nums)
+	//{
+	//	int len = nums.size();
+	//	int* state = new int[len];
+	//	for (int i = 0;i < nums.size() - 1;i++)
+	//	{
+	//		state[i] = 0;
+	//	}
+	//	state[len - 1] = 1;
+
+	//	for (int pos = len - 2;pos >= 0;pos--)
+	//	{
+	//		int step = nums[pos];			
+	//		for (int i = 0;i <= step;i++)
+	//		{
+	//			int tempPos = pos + i;
+	//			if (tempPos >= len || state[tempPos] == 1)
+	//			{
+	//				state[pos] = 1;
+	//				break;
+	//			}
+	//			else
+	//			{
+	//				state[pos] = -1;
+	//			}
+	//		}
+	//	}
+	//	return state[0] == 1;
+	//}
 
 
 	///*
