@@ -23,7 +23,8 @@
 //#include "merge_k_sorted_lists_23.hpp"
 //#include "palindrome_number_9.hpp"
 //#include "letter_combinations_of_a_phone_number_17.hpp"
-#include "jump_game_ii_45.hpp"
+//#include "jump_game_ii_45.hpp"
+#include "jump_game_55.hpp"
 
 int  main()
 {
@@ -136,12 +137,19 @@ int  main()
 	Solution sol;
 	vector<int> steps;
 	steps.push_back(3);
+	steps.push_back(2);
 	steps.push_back(1);
-	steps.push_back(1);
-	steps.push_back(1);
-	steps.push_back(1);
+	steps.push_back(0);
+	steps.push_back(4);
 	//[3, 1, 1, 1, 1]
-	printf("%d steps\n", sol.jump(steps));
-	
+	//printf("%d steps\n", sol.jump(steps));
+	if (sol.canJump(steps))
+	{
+		printf("aaa\n");
+	}
+	else
+	{
+		printf("bbbb\n");
+	}
 	return 0;
 }
