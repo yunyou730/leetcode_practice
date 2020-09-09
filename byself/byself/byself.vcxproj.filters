@@ -116,5 +116,8 @@
     <ClInclude Include="jump_game_55.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="remove_element_27.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
