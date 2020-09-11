@@ -100,6 +100,7 @@
 		0FF95298250BDAF400443DF9 /* palindrome_number_9.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = palindrome_number_9.hpp; path = ../../../../byself/palindrome_number_9.hpp; sourceTree = "<group>"; };
 		0FF95299250BDAF400443DF9 /* remove_element_27.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = remove_element_27.hpp; path = ../../../../byself/remove_element_27.hpp; sourceTree = "<group>"; };
 		0FF9529A250BDAF400443DF9 /* rotate_list_61.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = rotate_list_61.hpp; path = ../../../../byself/rotate_list_61.hpp; sourceTree = "<group>"; };
+		0FF952C1250BED6800443DF9 /* implement_strstr_28.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = implement_strstr_28.hpp; path = ../../../../byself/implement_strstr_28.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +133,7 @@
 		0FF9526D250BDADB00443DF9 /* leetcode_practice */ = {
 			isa = PBXGroup;
 			children = (
+				0FF952C1250BED6800443DF9 /* implement_strstr_28.hpp */,
 				0FF95277250BDAF300443DF9 /* add_two_numbers.hpp */,
 				0FF95283250BDAF300443DF9 /* best_time_to_buy_and_sell_stock.hpp */,
 				0FF95294250BDAF400443DF9 /* binary_tree_dfs_bfs_test.hpp */,

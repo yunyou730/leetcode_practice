@@ -25,23 +25,14 @@
 //#include "letter_combinations_of_a_phone_number_17.hpp"
 //#include "jump_game_ii_45.hpp"
 //#include "jump_game_55.hpp"
-#include "remove_element_27.hpp"
+//#include "remove_element_27.hpp"
+#include "implement_strstr_28.hpp"
 
 int  main()
 {
-	Solution sol;
-
-	vector<int> arr;
-	arr.push_back(0);
-	arr.push_back(1);
-	arr.push_back(2);
-	arr.push_back(2);
-	arr.push_back(3);
-	arr.push_back(0);
-	arr.push_back(4);
-	arr.push_back(2);
-
-	sol.removeElement(arr, 2);
-	
+    Solution sol;
+    int pos =     sol.strStr("hello","fkdjsk");
+    printf("%d\n",pos);
+    
 	return 0;
 }
