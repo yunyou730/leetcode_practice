@@ -168,6 +168,7 @@
     <ClInclude Include="reverse_linked_list_206.hpp" />
     <ClInclude Include="rotate_list_61.hpp" />
     <ClInclude Include="same_tree_100.hpp" />
+    <ClInclude Include="solve_queens_51.hpp" />
     <ClInclude Include="surrounded_regions_130.hpp" />
     <ClInclude Include="swap_nodes_in_pairs_24.hpp" />
     <ClInclude Include="symmetric_tree_101.hpp" />

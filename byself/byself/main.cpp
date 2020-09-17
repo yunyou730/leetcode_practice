@@ -26,13 +26,42 @@
 //#include "jump_game_ii_45.hpp"
 //#include "jump_game_55.hpp"
 //#include "remove_element_27.hpp"
-#include "implement_strstr_28.hpp"
+//#include "implement_strstr_28.hpp"
+#include "solve_queens_51.hpp"
 
 int  main()
 {
     Solution sol;
-    int pos =     sol.strStr("hello","fkdjsk");
-    printf("%d\n",pos);
-    
-	return 0;
+
+    sol.solveNQueens(8);
+
+    /*
+    vector<string> board;
+
+    int size = 4;
+    sol.init(board, size);
+    sol.dump(board, size);
+    auto func = [&](int row, int col)
+    {
+        bool bSucc = sol.checkValid(board, size, row, col);
+        if (bSucc)
+        {
+            sol.placeQueen(board, row, col);
+        }
+        printf("row %d,col %d,succ %d\n",row,col,bSucc);
+        sol.dump(board, size);
+    };*/
+
+
+    //func(0, 3);
+    //func(1, 2);
+    //func(0, 2);
+    //func(1, 0);
+    //func(2, 3);
+    //func(3, 1);
+    //func(3, 2);
+
+    return 0;
 }
+
+
