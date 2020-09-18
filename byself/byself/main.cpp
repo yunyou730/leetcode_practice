@@ -27,13 +27,54 @@
 //#include "jump_game_55.hpp"
 //#include "remove_element_27.hpp"
 //#include "implement_strstr_28.hpp"
-#include "solve_queens_51.hpp"
+//#include "solve_queens_51.hpp"
+#include "spiral_matrix_54.hpp"
 
 int  main()
 {
-    Solution sol;
+    vector<vector<int>> matrix;
+    
 
-    sol.solveNQueens(8);
+    //[[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]]
+    vector<int> row;
+    row.push_back(1);
+    row.push_back(2);
+    row.push_back(3);
+    row.push_back(4);
+    matrix.push_back(row);
+
+    row.clear();
+	row.push_back(5);
+	row.push_back(6);
+    row.push_back(7);
+    row.push_back(8);
+    matrix.push_back(row);
+
+    row.clear();
+	row.push_back(9);
+	row.push_back(10);
+	row.push_back(11);
+    row.push_back(12);
+    matrix.push_back(row);
+
+	row.clear();
+	row.push_back(13);
+	row.push_back(14);
+	row.push_back(15);
+	row.push_back(16);
+	matrix.push_back(row);
+
+    Solution sol;
+    vector<int> r = sol.spiralOrder(matrix);
+    
+    for (int  i  = 0;i < r.size();i++)
+    {
+        printf("%d,",r[i]);
+    }
+
+
+
+    //sol.solveNQueens(8);
 
     /*
     vector<string> board;

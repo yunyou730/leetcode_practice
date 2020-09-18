@@ -125,5 +125,8 @@
     <ClInclude Include="N_queens_II_52.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="spiral_matrix_54.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
