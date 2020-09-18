@@ -122,5 +122,8 @@
     <ClInclude Include="solve_queens_51.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="N_queens_II_52.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

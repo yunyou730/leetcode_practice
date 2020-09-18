@@ -162,6 +162,7 @@
     <ClInclude Include="merge_two_sorted_lists_21.hpp" />
     <ClInclude Include="minimum_depth_of_binary_tree_111.hpp" />
     <ClInclude Include="minimum_path_sum_64.hpp" />
+    <ClInclude Include="N_queens_II_52.hpp" />
     <ClInclude Include="palindrome_number_9.hpp" />
     <ClInclude Include="remove_element_27.hpp" />
     <ClInclude Include="remove_Nth_node_from_end_of_list_19.hpp" />
