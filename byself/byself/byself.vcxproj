@@ -171,6 +171,7 @@
     <ClInclude Include="same_tree_100.hpp" />
     <ClInclude Include="solve_queens_51.hpp" />
     <ClInclude Include="spiral_matrix_54.hpp" />
+    <ClInclude Include="spiral_matrix_ii_59.hpp" />
     <ClInclude Include="surrounded_regions_130.hpp" />
     <ClInclude Include="swap_nodes_in_pairs_24.hpp" />
     <ClInclude Include="symmetric_tree_101.hpp" />

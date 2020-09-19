@@ -28,64 +28,13 @@
 //#include "remove_element_27.hpp"
 //#include "implement_strstr_28.hpp"
 //#include "solve_queens_51.hpp"
-#include "spiral_matrix_54.hpp"
+//#include "spiral_matrix_54.hpp"
+#include "spiral_matrix_ii_59.hpp"
 
 int  main()
 {
-    {
-		vector<vector<int>> matrix;
-		vector<int> row;
-		row.push_back(1);
-		row.push_back(2);
-		row.push_back(3);
-		matrix.push_back(row);
-
-		row.clear();
-		row.push_back(4);
-		row.push_back(5);
-		row.push_back(6);
-		matrix.push_back(row);
-
-		row.clear();
-		row.push_back(7);
-		row.push_back(8);
-		row.push_back(9);
-		matrix.push_back(row);
-
-		Solution sol;
-		vector<int> r = sol.spiralOrder(matrix);
-		sol.dump(matrix, r);
-    }
-
-    {
-		vector<vector<int>> matrix;
-		vector<int> row;
-		row.push_back(1);
-		row.push_back(2);
-		row.push_back(3);
-		row.push_back(4);
-		matrix.push_back(row);
-
-		row.clear();
-		row.push_back(5);
-		row.push_back(6);
-		row.push_back(7);
-		row.push_back(8);
-		matrix.push_back(row);
-
-		row.clear();
-		row.push_back(9);
-		row.push_back(10);
-		row.push_back(11);
-		row.push_back(12);
-		matrix.push_back(row);
-
-
-		Solution sol;
-		vector<int> r = sol.spiralOrder(matrix);
-		sol.dump(matrix, r);
-    }
-
+    Solution sol;
+    sol.dump(sol.generateMatrix(5));
     return 0;
 }
 
