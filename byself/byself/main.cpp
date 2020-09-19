@@ -30,18 +30,45 @@
 //#include "solve_queens_51.hpp"
 //#include "spiral_matrix_54.hpp"
 //#include "spiral_matrix_ii_59.hpp"
-#include "plus_one_66.hpp"
+//#include "plus_one_66.hpp"
+#include "merge_intervals_56.hpp"
 
 int  main()
 {
-    Solution sol;
-    vector<int> digits(3, 0);
-    digits[0] = 9;
-    digits[1] = 9;
-    digits[2] = 9;
-    sol.dump(digits);
-    sol.dump(sol.plusOne(digits));
+   
+    vector<vector<int>> intervals;
+
+	{
+		vector<int> i1;
+		i1.push_back(2);
+		i1.push_back(6);
+		intervals.push_back(i1);
+	}
+
+    {
+		vector<int> i1;
+		i1.push_back(1);
+		i1.push_back(3);
+        intervals.push_back(i1);
+    }
+
+	{
+		vector<int> i1;
+		i1.push_back(8);
+		i1.push_back(10);
+		intervals.push_back(i1);
+	}
+
+	{
+		vector<int> i1;
+		i1.push_back(15);
+		i1.push_back(18);
+		intervals.push_back(i1);
+	}
+	
+	Solution sol;
+	vector<vector<int>> r = sol.merge(intervals);
+	sol.dump(r);
+
     return 0;
 }
-
-

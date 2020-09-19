@@ -158,6 +158,7 @@
     <ClInclude Include="longest_common_prefix_14.hpp" />
     <ClInclude Include="longest_palindrome.hpp" />
     <ClInclude Include="maximum_subarray.hpp" />
+    <ClInclude Include="merge_intervals_56.hpp" />
     <ClInclude Include="merge_k_sorted_lists_23.hpp" />
     <ClInclude Include="merge_two_sorted_lists_21.hpp" />
     <ClInclude Include="minimum_depth_of_binary_tree_111.hpp" />
