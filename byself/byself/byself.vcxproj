@@ -144,6 +144,7 @@
     <ClCompile Include="two_sum.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="add_binary_67.hpp" />
     <ClInclude Include="binary_tree_inorder_traversal_94.hpp" />
     <ClInclude Include="btree.h" />
     <ClInclude Include="climbing_stairs_70.hpp" />

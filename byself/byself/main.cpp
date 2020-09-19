@@ -31,44 +31,13 @@
 //#include "spiral_matrix_54.hpp"
 //#include "spiral_matrix_ii_59.hpp"
 //#include "plus_one_66.hpp"
-#include "merge_intervals_56.hpp"
+//#include "merge_intervals_56.hpp"
+#include "add_binary_67.hpp"
 
 int  main()
 {
-   
-    vector<vector<int>> intervals;
-
-	{
-		vector<int> i1;
-		i1.push_back(2);
-		i1.push_back(6);
-		intervals.push_back(i1);
-	}
-
-    {
-		vector<int> i1;
-		i1.push_back(1);
-		i1.push_back(3);
-        intervals.push_back(i1);
-    }
-
-	{
-		vector<int> i1;
-		i1.push_back(8);
-		i1.push_back(10);
-		intervals.push_back(i1);
-	}
-
-	{
-		vector<int> i1;
-		i1.push_back(15);
-		i1.push_back(18);
-		intervals.push_back(i1);
-	}
-	
-	Solution sol;
-	vector<vector<int>> r = sol.merge(intervals);
-	sol.dump(r);
-
+    Solution sol;
+    string ret = sol.addBinary("1010", "1011");
+    printf("%s\n",ret.c_str());
     return 0;
 }
