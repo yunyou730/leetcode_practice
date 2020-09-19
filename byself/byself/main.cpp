@@ -32,12 +32,31 @@
 //#include "spiral_matrix_ii_59.hpp"
 //#include "plus_one_66.hpp"
 //#include "merge_intervals_56.hpp"
-#include "add_binary_67.hpp"
+//#include "add_binary_67.hpp"
+#include "validate_binary_search_tree_98.hpp"
 
 int  main()
 {
+    TreeNode* root = new TreeNode(2);
+    root->left = new TreeNode(1);
+    root->right = new TreeNode(3);
+
+    TreeNode* root2 = new TreeNode(5);
+    root2->left = new TreeNode(1);
+    root2->right = new TreeNode(4);
+    root2->right->left = new TreeNode(3);
+    root2->right->right = new TreeNode(6);
+
+    TreeNode* root3 = new TreeNode(10);
+    root3->left = new TreeNode(5);
+    root3->right = new TreeNode(15);
+    root3->right->left = new TreeNode(6);
+    root3->right->right = new TreeNode(20);
+
     Solution sol;
-    string ret = sol.addBinary("1010", "1011");
-    printf("%s\n",ret.c_str());
+	printf("%d\n", sol.isValidBST(root));
+	printf("%d\n", sol.isValidBST(root2));
+    printf("%d\n", sol.isValidBST(root3));
+    
     return 0;
 }

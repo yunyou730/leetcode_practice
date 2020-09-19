@@ -140,5 +140,8 @@
     <ClInclude Include="add_binary_67.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="validate_binary_search_tree_98.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
