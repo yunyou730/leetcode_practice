@@ -164,6 +164,7 @@
     <ClInclude Include="minimum_path_sum_64.hpp" />
     <ClInclude Include="N_queens_II_52.hpp" />
     <ClInclude Include="palindrome_number_9.hpp" />
+    <ClInclude Include="plus_one_66.hpp" />
     <ClInclude Include="remove_element_27.hpp" />
     <ClInclude Include="remove_Nth_node_from_end_of_list_19.hpp" />
     <ClInclude Include="reverse_linked_list_206.hpp" />

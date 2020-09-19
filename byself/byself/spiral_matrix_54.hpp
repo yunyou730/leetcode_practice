@@ -126,7 +126,7 @@ public:
 		printf("-------------------------------\n");
 	}
 
-	typedef enum
+	typedef enum 
 	{
 		Right,
 		Down,

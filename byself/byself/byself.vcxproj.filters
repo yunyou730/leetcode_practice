@@ -131,5 +131,8 @@
     <ClInclude Include="spiral_matrix_ii_59.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="plus_one_66.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

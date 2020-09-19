@@ -29,12 +29,18 @@
 //#include "implement_strstr_28.hpp"
 //#include "solve_queens_51.hpp"
 //#include "spiral_matrix_54.hpp"
-#include "spiral_matrix_ii_59.hpp"
+//#include "spiral_matrix_ii_59.hpp"
+#include "plus_one_66.hpp"
 
 int  main()
 {
     Solution sol;
-    sol.dump(sol.generateMatrix(5));
+    vector<int> digits(3, 0);
+    digits[0] = 9;
+    digits[1] = 9;
+    digits[2] = 9;
+    sol.dump(digits);
+    sol.dump(sol.plusOne(digits));
     return 0;
 }
 
