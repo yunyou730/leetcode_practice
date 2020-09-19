@@ -32,75 +32,59 @@
 
 int  main()
 {
-    vector<vector<int>> matrix;
-    
-
-    //[[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]]
-    vector<int> row;
-    row.push_back(1);
-    row.push_back(2);
-    row.push_back(3);
-    row.push_back(4);
-    matrix.push_back(row);
-
-    row.clear();
-	row.push_back(5);
-	row.push_back(6);
-    row.push_back(7);
-    row.push_back(8);
-    matrix.push_back(row);
-
-    row.clear();
-	row.push_back(9);
-	row.push_back(10);
-	row.push_back(11);
-    row.push_back(12);
-    matrix.push_back(row);
-
-	row.clear();
-	row.push_back(13);
-	row.push_back(14);
-	row.push_back(15);
-	row.push_back(16);
-	matrix.push_back(row);
-
-    Solution sol;
-    vector<int> r = sol.spiralOrder(matrix);
-    
-    for (int  i  = 0;i < r.size();i++)
     {
-        printf("%d,",r[i]);
+		vector<vector<int>> matrix;
+		vector<int> row;
+		row.push_back(1);
+		row.push_back(2);
+		row.push_back(3);
+		matrix.push_back(row);
+
+		row.clear();
+		row.push_back(4);
+		row.push_back(5);
+		row.push_back(6);
+		matrix.push_back(row);
+
+		row.clear();
+		row.push_back(7);
+		row.push_back(8);
+		row.push_back(9);
+		matrix.push_back(row);
+
+		Solution sol;
+		vector<int> r = sol.spiralOrder(matrix);
+		sol.dump(matrix, r);
     }
 
-
-
-    //sol.solveNQueens(8);
-
-    /*
-    vector<string> board;
-
-    int size = 4;
-    sol.init(board, size);
-    sol.dump(board, size);
-    auto func = [&](int row, int col)
     {
-        bool bSucc = sol.checkValid(board, size, row, col);
-        if (bSucc)
-        {
-            sol.placeQueen(board, row, col);
-        }
-        printf("row %d,col %d,succ %d\n",row,col,bSucc);
-        sol.dump(board, size);
-    };*/
+		vector<vector<int>> matrix;
+		vector<int> row;
+		row.push_back(1);
+		row.push_back(2);
+		row.push_back(3);
+		row.push_back(4);
+		matrix.push_back(row);
+
+		row.clear();
+		row.push_back(5);
+		row.push_back(6);
+		row.push_back(7);
+		row.push_back(8);
+		matrix.push_back(row);
+
+		row.clear();
+		row.push_back(9);
+		row.push_back(10);
+		row.push_back(11);
+		row.push_back(12);
+		matrix.push_back(row);
 
 
-    //func(0, 3);
-    //func(1, 2);
-    //func(0, 2);
-    //func(1, 0);
-    //func(2, 3);
-    //func(3, 1);
-    //func(3, 2);
+		Solution sol;
+		vector<int> r = sol.spiralOrder(matrix);
+		sol.dump(matrix, r);
+    }
 
     return 0;
 }
