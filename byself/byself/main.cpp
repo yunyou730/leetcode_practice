@@ -33,30 +33,50 @@
 //#include "plus_one_66.hpp"
 //#include "merge_intervals_56.hpp"
 //#include "add_binary_67.hpp"
-#include "validate_binary_search_tree_98.hpp"
+//#include "validate_binary_search_tree_98.hpp"
+#include "premutations_ii_47.hpp"
 
 int  main()
 {
-    TreeNode* root = new TreeNode(2);
-    root->left = new TreeNode(1);
-    root->right = new TreeNode(3);
-
-    TreeNode* root2 = new TreeNode(5);
-    root2->left = new TreeNode(1);
-    root2->right = new TreeNode(4);
-    root2->right->left = new TreeNode(3);
-    root2->right->right = new TreeNode(6);
-
-    TreeNode* root3 = new TreeNode(10);
-    root3->left = new TreeNode(5);
-    root3->right = new TreeNode(15);
-    root3->right->left = new TreeNode(6);
-    root3->right->right = new TreeNode(20);
-
-    Solution sol;
-	printf("%d\n", sol.isValidBST(root));
-	printf("%d\n", sol.isValidBST(root2));
-    printf("%d\n", sol.isValidBST(root3));
+//    TreeNode* root = new TreeNode(2);
+//    root->left = new TreeNode(1);
+//    root->right = new TreeNode(3);
+//
+//    TreeNode* root2 = new TreeNode(5);
+//    root2->left = new TreeNode(1);
+//    root2->right = new TreeNode(4);
+//    root2->right->left = new TreeNode(3);
+//    root2->right->right = new TreeNode(6);
+//
+//    TreeNode* root3 = new TreeNode(10);
+//    root3->left = new TreeNode(5);
+//    root3->right = new TreeNode(15);
+//    root3->right->left = new TreeNode(6);
+//    root3->right->right = new TreeNode(20);
+//
+//    Solution sol;
+//	printf("%d\n", sol.isValidBST(root));
+//	printf("%d\n", sol.isValidBST(root2));
+//    printf("%d\n", sol.isValidBST(root3));
     
+    Solution sol;
+    vector<int> nums;
+//    nums.push_back(1);
+//    nums.push_back(2);
+//    nums.push_back(3);
+    nums.push_back(1);
+    nums.push_back(1);
+    nums.push_back(2);
+    vector<vector<int>> res = sol.permuteUnique(nums);
+    
+    for(int i = 0;i < res.size();i++)
+    {
+        printf("-----\n");
+        for(int j = 0;j < res[i].size();j++)
+        {
+            printf("%d,",res[i][j]);
+        }
+        printf("\n");
+    }
     return 0;
 }

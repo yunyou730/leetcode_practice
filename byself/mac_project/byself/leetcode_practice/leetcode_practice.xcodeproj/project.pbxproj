@@ -101,6 +101,7 @@
 		0FF95299250BDAF400443DF9 /* remove_element_27.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = remove_element_27.hpp; path = ../../../../byself/remove_element_27.hpp; sourceTree = "<group>"; };
 		0FF9529A250BDAF400443DF9 /* rotate_list_61.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = rotate_list_61.hpp; path = ../../../../byself/rotate_list_61.hpp; sourceTree = "<group>"; };
 		0FF952C1250BED6800443DF9 /* implement_strstr_28.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = implement_strstr_28.hpp; path = ../../../../byself/implement_strstr_28.hpp; sourceTree = "<group>"; };
+		0FF952C3253AB6AD00443DF9 /* premutations_ii_47.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = premutations_ii_47.hpp; path = ../../../../byself/premutations_ii_47.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +145,7 @@
 				0FF95296250BDAF400443DF9 /* byself.vcxproj */,
 				0FF9528A250BDAF300443DF9 /* byself.vcxproj.filters */,
 				0FF95292250BDAF400443DF9 /* climbing_stairs_70.hpp */,
+				0FF952C3253AB6AD00443DF9 /* premutations_ii_47.hpp */,
 				0FF95295250BDAF400443DF9 /* convert_binary_number_in_a_linked_list_to_integer_1290.hpp */,
 				0FF9527C250BDAF300443DF9 /* find_median_sorted_arrays.hpp */,
 				0FF95285250BDAF300443DF9 /* intersection_of_two_linked_lists.hpp */,
