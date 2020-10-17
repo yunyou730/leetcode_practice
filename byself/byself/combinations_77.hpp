@@ -13,13 +13,12 @@ class Solution {
 public:
     vector<vector<int>> combine(int n, int k) {
         vector<vector<int>> res;
-        set<int>    used;
         vector<int>     path;
-        dfs(std::make_pair(1,n),used,res,path,k);
+        dfs(std::make_pair(1,n),res,path,k);
         return res;
     }
     
-    void dfs(const std::pair<int,int>& fromto,set<int>& used,vector<vector<int>>& res,vector<int>& path,int destLen)
+    void dfs(const std::pair<int,int>& fromto,vector<vector<int>>& res,vector<int>& path,int destLen)
     {
         if(path.size() == destLen)
         {
@@ -35,19 +34,9 @@ public:
         }
         for(int i = from;i <= to;i++)
         {
-            if(used.find(i) != used.end())
-            {
-                continue;
-            }
-            
             path.push_back(i);
-            used.insert(i);
-            
-            dfs(fromto,used,res,path,destLen);
-            
+            dfs(fromto,res,path,destLen);
             path.pop_back();
-            used.erase(i);
-            
         }
     }
 };
