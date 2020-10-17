@@ -103,6 +103,7 @@
 		0FF952C1250BED6800443DF9 /* implement_strstr_28.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = implement_strstr_28.hpp; path = ../../../../byself/implement_strstr_28.hpp; sourceTree = "<group>"; };
 		0FF952C3253AB6AD00443DF9 /* premutations_ii_47.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = premutations_ii_47.hpp; path = ../../../../byself/premutations_ii_47.hpp; sourceTree = "<group>"; };
 		0FF952C4253ACDA900443DF9 /* combinations_77.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = combinations_77.hpp; path = ../../../../byself/combinations_77.hpp; sourceTree = "<group>"; };
+		0FF952C5253AD95F00443DF9 /* generate_parentheses_22.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = generate_parentheses_22.hpp; path = ../../../../byself/generate_parentheses_22.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +136,7 @@
 		0FF9526D250BDADB00443DF9 /* leetcode_practice */ = {
 			isa = PBXGroup;
 			children = (
+				0FF952C5253AD95F00443DF9 /* generate_parentheses_22.hpp */,
 				0FF952C4253ACDA900443DF9 /* combinations_77.hpp */,
 				0FF952C1250BED6800443DF9 /* implement_strstr_28.hpp */,
 				0FF95277250BDAF300443DF9 /* add_two_numbers.hpp */,

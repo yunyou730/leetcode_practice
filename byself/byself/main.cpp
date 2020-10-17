@@ -35,23 +35,17 @@
 //#include "add_binary_67.hpp"
 //#include "validate_binary_search_tree_98.hpp"
 //#include "premutations_ii_47.hpp"
-#include "combinations_77.hpp"
+//#include "combinations_77.hpp"
+#include "generate_parentheses_22.hpp"
 
 int  main()
 {
     
     Solution sol;
-//    vector<vector<int>> res = sol.combine(4,2);
-    vector<vector<int>> res = sol.combine(3,3);
-    
-    for(int i = 0;i < res.size();i++)
+    vector<string> ans = sol.generateParenthesis(3);
+    for(int i = 0;i < ans.size();i++)
     {
-        printf("-----\n");
-        for(int j = 0;j < res[i].size();j++)
-        {
-            printf("%d,",res[i][j]);
-        }
-        printf("\n");
+        printf("%s\n",ans[i].c_str());
     }
     return 0;
 }
