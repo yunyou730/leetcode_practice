@@ -143,5 +143,11 @@
     <ClInclude Include="validate_binary_search_tree_98.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="generate_parentheses_22.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="maximum_depth_of_binary_tree_104.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

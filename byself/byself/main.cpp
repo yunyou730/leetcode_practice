@@ -36,16 +36,13 @@
 //#include "validate_binary_search_tree_98.hpp"
 //#include "premutations_ii_47.hpp"
 //#include "combinations_77.hpp"
-#include "generate_parentheses_22.hpp"
+//#include "generate_parentheses_22.hpp"
+#include "maximum_depth_of_binary_tree_104.hpp"
 
 int  main()
 {
-    
     Solution sol;
-    vector<string> ans = sol.generateParenthesis(3);
-    for(int i = 0;i < ans.size();i++)
-    {
-        printf("%s\n",ans[i].c_str());
-    }
+    TreeNode* root = sol.makeTestcase();
+    printf("%d\n", sol.maxDepth(root));
     return 0;
 }
