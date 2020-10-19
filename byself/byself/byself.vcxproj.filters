@@ -152,5 +152,8 @@
     <ClInclude Include="combination_sum_39.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="combination_sum_ii_40.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

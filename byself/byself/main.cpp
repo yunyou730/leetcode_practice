@@ -38,20 +38,29 @@
 //#include "combinations_77.hpp"
 //#include "generate_parentheses_22.hpp"
 //#include "maximum_depth_of_binary_tree_104.hpp"
-#include "combination_sum_39.hpp"
+//#include "combination_sum_39.hpp"
+#include "combination_sum_ii_40.hpp"
 
 int  main()
 {
     Solution sol;
-    //TreeNode* root = sol.makeTestcase();
-    //printf("%d\n", sol.maxDepth(root));
     vector<int> candidates;
-    candidates.push_back(2);
-    candidates.push_back(3);
-    candidates.push_back(6);
-    candidates.push_back(7);
 
-    vector<vector<int>> res = sol.combinationSum(candidates, 7);
+	//candidates.push_back(10);
+	//candidates.push_back(1);
+	//candidates.push_back(2);
+	//candidates.push_back(7);
+ //   candidates.push_back(6);
+ //   candidates.push_back(1);
+ //   candidates.push_back(5);
+
+	candidates.push_back(1);
+	candidates.push_back(2);
+	candidates.push_back(2);
+	candidates.push_back(2);
+	candidates.push_back(5);
+
+    vector<vector<int>> res = sol.combinationSum2(candidates, 5);
     for (int i = 0;i < res.size();i++)
     {
         printf("----\n");
