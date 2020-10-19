@@ -39,36 +39,17 @@
 //#include "generate_parentheses_22.hpp"
 //#include "maximum_depth_of_binary_tree_104.hpp"
 //#include "combination_sum_39.hpp"
-#include "combination_sum_ii_40.hpp"
+//#include "combination_sum_ii_40.hpp"
+#include "house_robber_198.hpp"
 
 int  main()
 {
     Solution sol;
-    vector<int> candidates;
-
-	//candidates.push_back(10);
-	//candidates.push_back(1);
-	//candidates.push_back(2);
-	//candidates.push_back(7);
- //   candidates.push_back(6);
- //   candidates.push_back(1);
- //   candidates.push_back(5);
-
-	candidates.push_back(1);
-	candidates.push_back(2);
-	candidates.push_back(2);
-	candidates.push_back(2);
-	candidates.push_back(5);
-
-    vector<vector<int>> res = sol.combinationSum2(candidates, 5);
-    for (int i = 0;i < res.size();i++)
-    {
-        printf("----\n");
-        for (int j = 0;j < res[i].size();j++)
-        {
-            printf("%d,", res[i][j]);
-        }
-        printf("\n");
-    }
-    return 0;
+    vector<int> nums;
+    nums.push_back(2);
+    nums.push_back(7);
+    nums.push_back(9);
+    nums.push_back(3);
+    nums.push_back(1);
+    printf("%d\n",sol.rob(nums));
 }

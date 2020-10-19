@@ -104,6 +104,9 @@
 		0FF952C3253AB6AD00443DF9 /* premutations_ii_47.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = premutations_ii_47.hpp; path = ../../../../byself/premutations_ii_47.hpp; sourceTree = "<group>"; };
 		0FF952C4253ACDA900443DF9 /* combinations_77.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = combinations_77.hpp; path = ../../../../byself/combinations_77.hpp; sourceTree = "<group>"; };
 		0FF952C5253AD95F00443DF9 /* generate_parentheses_22.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = generate_parentheses_22.hpp; path = ../../../../byself/generate_parentheses_22.hpp; sourceTree = "<group>"; };
+		0FFB2790253DD7370039D6DB /* combination_sum_ii_40.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = combination_sum_ii_40.hpp; path = ../../../../byself/combination_sum_ii_40.hpp; sourceTree = "<group>"; };
+		0FFB2791253DD7370039D6DB /* combination_sum_39.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = combination_sum_39.hpp; path = ../../../../byself/combination_sum_39.hpp; sourceTree = "<group>"; };
+		0FFB2792253DD8FD0039D6DB /* house_robber_198.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = house_robber_198.hpp; path = ../../../../byself/house_robber_198.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +139,9 @@
 		0FF9526D250BDADB00443DF9 /* leetcode_practice */ = {
 			isa = PBXGroup;
 			children = (
+				0FFB2792253DD8FD0039D6DB /* house_robber_198.hpp */,
+				0FFB2791253DD7370039D6DB /* combination_sum_39.hpp */,
+				0FFB2790253DD7370039D6DB /* combination_sum_ii_40.hpp */,
 				0FF952C5253AD95F00443DF9 /* generate_parentheses_22.hpp */,
 				0FF952C4253ACDA900443DF9 /* combinations_77.hpp */,
 				0FF952C1250BED6800443DF9 /* implement_strstr_28.hpp */,
