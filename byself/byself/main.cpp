@@ -39,10 +39,15 @@
 //#include "generate_parentheses_22.hpp"
 #include "maximum_depth_of_binary_tree_104.hpp"
 
+#include "json_parser_testcase/testcase.h"
+
 int  main()
 {
     Solution sol;
     TreeNode* root = sol.makeTestcase();
     printf("%d\n", sol.maxDepth(root));
+
+    ayyjson::Testcase test;
+    test.test("{}");
     return 0;
 }

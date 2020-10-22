@@ -140,6 +140,8 @@
   <ItemGroup>
     <ClCompile Include="add_two_numbers.hpp" />
     <ClCompile Include="btree.cpp" />
+    <ClCompile Include="json_parser\json_parser.cpp" />
+    <ClCompile Include="json_parser_testcase\testcase.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="two_sum.hpp" />
   </ItemGroup>
@@ -152,6 +154,8 @@
     <ClInclude Include="binary_tree_dfs_bfs_test.hpp" />
     <ClInclude Include="generate_parentheses_22.hpp" />
     <ClInclude Include="intersection_of_two_linked_lists.hpp" />
+    <ClInclude Include="json_parser\json_parser.h" />
+    <ClInclude Include="json_parser_testcase\testcase.h" />
     <ClInclude Include="jump_game_55.hpp" />
     <ClInclude Include="jump_game_ii_45.hpp" />
     <ClInclude Include="length_of_longest_sub_string.hpp" />

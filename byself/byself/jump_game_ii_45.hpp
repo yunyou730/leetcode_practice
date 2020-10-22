@@ -8,12 +8,54 @@
 using namespace std;
 
 /*
-+45, jump game 用  DP 的思想做 , 超时了. 还得再想办法.正确思路 应该是 backtracking ?
++45, jump game 用  DP 的思想做 , 超时了. 还得再想办法.正确思路 应该是 backtracking ? greedy ?
 @miao @todo
 */
 class Solution {
 
 public:
+
+	// Greedy
+	int jump(vector<int>& nums)
+	{
+		// @miao @todo
+		int maxReach = 0;
+		int stepCount = 0;
+
+		for (int pos = 0;pos < nums.size();pos ++)
+		{
+			int step = nums[pos];
+			for (int i = 0; i <= step; i++)
+			{
+				if (i == 0)
+				{
+					stepCount++;
+				}
+				else
+				{
+					int tempPos = pos + i;
+					if (tempPos >= nums.size() - 1)
+					{
+						break;
+					}
+					else
+					{
+						int tempStep = nums[tempPos];
+						if (tempPos + tempStep > maxReach)
+						{
+							maxReach = tempPos + tempStep;
+						}
+					}
+				}
+			}
+		}
+		return stepCount;
+	}
+
+
+
+	/*
+	// DP 超时了...
 	int jump(vector<int>& nums)
 	{
 		int len = nums.size();
@@ -57,4 +99,5 @@ public:
 		}
 		return arr[len - 1];
 	}
+	*/
 };
