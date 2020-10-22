@@ -21,7 +21,7 @@ Node::~Node()
 	Token
 */
 Token::Token()
-	:_type(ETokenType::Max)
+	:_type(ETokenType::Invalid)
 {
 
 }

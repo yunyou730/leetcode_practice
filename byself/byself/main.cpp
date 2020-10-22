@@ -37,17 +37,22 @@
 //#include "premutations_ii_47.hpp"
 //#include "combinations_77.hpp"
 //#include "generate_parentheses_22.hpp"
-#include "maximum_depth_of_binary_tree_104.hpp"
-
+//#include "maximum_depth_of_binary_tree_104.hpp"
+//#include "combination_sum_39.hpp"
+//#include "combination_sum_ii_40.hpp"
+#include "house_robber_198.hpp"
 #include "json_parser_testcase/testcase.h"
 
 int  main()
 {
-    Solution sol;
-    TreeNode* root = sol.makeTestcase();
-    printf("%d\n", sol.maxDepth(root));
+    //Solution sol;
+    //TreeNode* root = sol.makeTestcase();
+    //printf("%d\n", sol.maxDepth(root));
 
-    ayyjson::Testcase test;
-    test.test("{}");
+    ayyjson::Testcase t;
+    t.test("xx");
+    //test.test("{}");
+
     return 0;
+
 }

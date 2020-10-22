@@ -3,7 +3,7 @@
 
 namespace ayyjson
 {
-	void test(const std::string& json)
+	void Testcase::test(const std::string& json)
 	{
 		ayyjson::Reader reader;
 		ayyjson::Node* node = reader.read(json);

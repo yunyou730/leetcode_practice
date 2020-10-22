@@ -9,7 +9,7 @@
 namespace ayyjson
 {
 
-	enum ENodeType
+	enum class ENodeType
 	{
 		Map,
 		Array,
@@ -38,7 +38,7 @@ namespace ayyjson
 	};
 
 
-	enum ETokenType
+	enum class ETokenType
 	{
 		MapBegin,		// {
 		MapEnd,			// }
@@ -51,7 +51,7 @@ namespace ayyjson
 		StrValue,			
 		NumberValue,	
 
-		Max,
+		Invalid,
 	}
 	;
 
