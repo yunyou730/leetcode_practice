@@ -1,37 +1,19 @@
-#include "json_parser.h"
+#include "parser.h"
+#include "dfa.h"
 
-using namespace ayyjson;
+using namespace ayy;
 
-
-Node::Node()
-	:_type(ENodeType::Invalid)
-	,_intValue(0)
-
-{
-
-}
-
-Node::~Node()
-{
-
-}
-
-
-/*
-	Token
-*/
-Token::Token()
-	:_type(ETokenType::Invalid)
-{
-
-}
+const int STATE_START = 0;
+const int STATE_
 
 /*
 	JsonParser 
 */
-
-Node* Reader::read(const std::string& str)
+JNode* Parser::parse(const std::string& str)
 {
+
+	DFA dfa;
+	
 	_contentLen = str.size();
 	if (_contentLen < 2)
 	{
@@ -39,7 +21,6 @@ Node* Reader::read(const std::string& str)
 	}
 
 	_parseCharIdx = 0;
-	bool isHandleValue = false;
 	while (_parseCharIdx < _contentLen)
 	{
 		char ch = str[_parseCharIdx];
@@ -51,10 +32,6 @@ Node* Reader::read(const std::string& str)
 				Token * token = new Token();
 				break;
 			}
-		}
-		else
-		{
-
 		}
 	}
 	return nullptr;
