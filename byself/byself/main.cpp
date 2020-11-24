@@ -40,19 +40,26 @@
 //#include "maximum_depth_of_binary_tree_104.hpp"
 //#include "combination_sum_39.hpp"
 //#include "combination_sum_ii_40.hpp"
-#include "house_robber_198.hpp"
-#include "json_parser_testcase/testcase.h"
+//#include "house_robber_198.hpp"
+//#include "json_parser_testcase/testcase.h"
+//#include <cstdio>
+//#include "playground.hpp"
+#include "permutations_46.hpp"
 
-int  main()
+int main()
 {
-    //Solution sol;
-    //TreeNode* root = sol.makeTestcase();
-    //printf("%d\n", sol.maxDepth(root));
-
-    ayyjson::Testcase t;
-    t.test("xx");
-    //test.test("{}");
-
-    return 0;
-
+	Solution sol;
+	sol.test();
+	return 0;
+	//ListNode* node = new ListNode(1);
+	//node->next = new ListNode(2);
+	//node->next = new ListNode(3);
+	////ListNode* head = node;
+	////for (int i = 0;i < 20;i++)
+	////{
+	////	node->next = new ListNode(i + 1);
+	////	node = node->next;
+	////}
+	//ListNode* result = sol.removeNthFromEnd(node, 3);
+	//printf("xx");
 }

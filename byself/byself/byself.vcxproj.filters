@@ -167,13 +167,17 @@
     <ClInclude Include="combination_sum_ii_40.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
-
     <ClInclude Include="json_parser\json_parser.h">
       <Filter>json_parser</Filter>
     </ClInclude>
     <ClInclude Include="json_parser_testcase\testcase.h">
       <Filter>json_parser_testcase</Filter>
     </ClInclude>
-    
+    <ClInclude Include="playground.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="permutations_46.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
