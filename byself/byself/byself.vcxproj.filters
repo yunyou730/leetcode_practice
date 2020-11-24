@@ -13,11 +13,11 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="json_parser">
-      <UniqueIdentifier>{e589ed62-8b67-4f24-ac57-23f5f3cc9a75}</UniqueIdentifier>
-    </Filter>
     <Filter Include="json_parser_testcase">
       <UniqueIdentifier>{af314fc2-d109-4eb1-bae9-f81b2bb46181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ayy_json">
+      <UniqueIdentifier>{e589ed62-8b67-4f24-ac57-23f5f3cc9a75}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -33,10 +33,19 @@
     <ClCompile Include="add_two_numbers.hpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="json_parser\json_parser.cpp">
-      <Filter>json_parser</Filter>
-    </ClCompile>
     <ClCompile Include="json_parser_testcase\testcase.cpp">
+      <Filter>json_parser_testcase</Filter>
+    </ClCompile>
+    <ClCompile Include="ayy_json\lex.cpp">
+      <Filter>ayy_json</Filter>
+    </ClCompile>
+    <ClCompile Include="ayy_json\parser.cpp">
+      <Filter>ayy_json</Filter>
+    </ClCompile>
+    <ClCompile Include="ayy_json\dfa.cpp">
+      <Filter>ayy_json</Filter>
+    </ClCompile>
+    <ClCompile Include="json_parser_testcase\dfa_ref.cpp">
       <Filter>json_parser_testcase</Filter>
     </ClCompile>
   </ItemGroup>
@@ -167,6 +176,7 @@
     <ClInclude Include="combination_sum_ii_40.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="json_parser\json_parser.h">
       <Filter>json_parser</Filter>
     </ClInclude>
@@ -178,6 +188,19 @@
     </ClInclude>
     <ClInclude Include="permutations_46.hpp">
       <Filter>源文件</Filter>
+=======
+    <ClInclude Include="json_parser_testcase\testcase.h">
+      <Filter>json_parser_testcase</Filter>
+    </ClInclude>
+    <ClInclude Include="ayy_json\lex.h">
+      <Filter>ayy_json</Filter>
+    </ClInclude>
+    <ClInclude Include="ayy_json\parser.h">
+      <Filter>ayy_json</Filter>
+    </ClInclude>
+    <ClInclude Include="ayy_json\dfa.h">
+      <Filter>ayy_json</Filter>
+>>>>>>> 5c2d861414268274565a6ec99f1b286237829f83
     </ClInclude>
   </ItemGroup>
 </Project>

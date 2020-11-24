@@ -1,12 +1,12 @@
 #include "testcase.h"
-#include "../json_parser/json_parser.h"
+#include "../ayy_json/parser.h"
 
-namespace ayyjson
+namespace ayy
 {
 	void Testcase::test(const std::string& json)
 	{
-		ayyjson::Reader reader;
-		ayyjson::Node* node = reader.read(json);
+		Parser parser;
+		JNode* node = parser.parse(json);
 		delete node;
 		node = nullptr;
 	}

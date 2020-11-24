@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <string>
 
-namespace ayyjson
+namespace ayy
 {
 	class Testcase
 	{
