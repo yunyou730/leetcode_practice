@@ -46,7 +46,8 @@
 //#include "playground.hpp"
 //#include "permutations_46.hpp"
 
-#include "no_1_two_sum.hpp"
+//#include "no_1_two_sum.hpp"
+#include "no_2_add_two_numbers.hpp"
 
 int main()
 {
