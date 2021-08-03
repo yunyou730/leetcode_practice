@@ -44,12 +44,17 @@
 //#include "json_parser_testcase/testcase.h"
 //#include <cstdio>
 //#include "playground.hpp"
-#include "permutations_46.hpp"
+//#include "permutations_46.hpp"
+
+#include "no_1_two_sum.hpp"
 
 int main()
 {
-	Solution sol;
-	sol.test();
+//	Solution sol;
+//	sol.test();
+    
+    Solution sol;
+    sol.test();
 	return 0;
 	//ListNode* node = new ListNode(1);
 	//node->next = new ListNode(2);
