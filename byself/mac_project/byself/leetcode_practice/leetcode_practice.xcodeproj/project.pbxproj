@@ -96,6 +96,7 @@
 		2B0A7BCF26B8EA9A0052B1EC /* no_1_two_sum.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = no_1_two_sum.hpp; sourceTree = "<group>"; };
 		2B0A7BD126B8F0D90052B1EC /* no_2_add_two_numbers.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = no_2_add_two_numbers.hpp; sourceTree = "<group>"; };
 		2B0A7BD326BA17200052B1EC /* no3_length_of_longest_substring.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = no3_length_of_longest_substring.hpp; sourceTree = "<group>"; };
+		2B0A7BD526BA5B950052B1EC /* no4_find_median_sorted_arrays.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = no4_find_median_sorted_arrays.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +220,7 @@
 				2B0A7BCF26B8EA9A0052B1EC /* no_1_two_sum.hpp */,
 				2B0A7BD126B8F0D90052B1EC /* no_2_add_two_numbers.hpp */,
 				2B0A7BD326BA17200052B1EC /* no3_length_of_longest_substring.hpp */,
+				2B0A7BD526BA5B950052B1EC /* no4_find_median_sorted_arrays.hpp */,
 			);
 			path = 2nd;
 			sourceTree = "<group>";
